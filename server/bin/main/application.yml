@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: sabre
+  server:
+    cors:
+      enabled: true
+    port: 8888
+  router:
+    static-resources:
+      default:
+        enabled: true   
+        mapping: "/**"  
+        paths: "classpath:public"

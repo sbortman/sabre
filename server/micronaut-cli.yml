@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: sabre
+---
+testFramework: spock
+sourceLanguage: groovy
